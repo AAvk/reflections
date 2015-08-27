@@ -1,0 +1,43 @@
+git status (shows which files have changed sinse the last commit)
+
+What happens when you initialize a repository? Why do you need to do it?
+Initialized empty Git repository in...
+Creates a new git repository
+
+afterwards you can run git status
+shows the untracked files
+
+git add, moves files from in the particular working directory to the staging area.
+If you run git status you can see that these file are changes to be committed which means they are added to the staging area.
+
+git init
+git add
+git status
+staging area
+working directory
+
+git reset
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+makes it easier to organize..?
+
+
+git commit
+
+git diff without any commits shows the difference between the working directory and the staging area i.e. the changes that have not been added to the staging area.
+
+git diff --staged gives the difference between the staging area and the repository
+
+git reset --hard removes changes you added to the staging area and also in the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Making sure that severything thats in the staging area has the same logical change.
+
+git branch cretes a new branch
+git branch with no argument shows you the current branches
+git branh with argument creates a new branch with that argument name
+git chekout branch name (argument) and git will switch to other branch
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+E.g. when making different version or trying something making an experiment,etc
+
